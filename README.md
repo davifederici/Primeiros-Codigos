@@ -157,4 +157,43 @@ n3=int(input("Digite um número:"))
 if n3 > n1 and n2 > n1:
     print("esse número é ascendente")
 else:
-    print("esse número não é ascendente")                                                                   
+    print("esse número não é ascendente")
+
+
+
+
+                         DECIMO CÓDIGO
+
+print("-"*35)
+print("101 - Batata List - R$4.50")
+print("305 - Suco Py - R$2.00")
+print("248 - Suco Interpretado - R$4.25")
+print("389 - Guaraná Lambda - R$3.50")
+print("145 - Sanduiche Integral - R$9.00")
+print("567 - Cerveja Derivada - R$8.50")
+print("673 - Vitamina Compilada - R$7.80")
+print("-"*35)
+produto = int(input("Escolha seu produto: "))
+if produto == 101:
+    print("Batata List - R$4.50")
+    semErro = True
+elif produto == 305:
+     print("Suco Py - R$2.00")
+     semErro = True  
+elif produto == 248:
+     print("Suco Interpretado - R$4.25")
+     semErro = True
+elif produto == 389:
+     print("Guaraná Lambda - R$3.50")
+     semErro = True
+elif produto == 145:
+     print("Sanduiche Integral - R$9.00")
+     semErro = True
+elif produto == 567:
+     print(" Cerveja Derivada - R$8.50")
+     semErro = True
+elif produto == 673:
+     print("Vitamina Compilada - R$7.80")
+     semErro = True
+else:
+     print("Produto não encontrado")                         
