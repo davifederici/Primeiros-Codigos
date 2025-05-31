@@ -196,4 +196,24 @@ elif produto == 673:
      print("Vitamina Compilada - R$7.80")
      semErro = True
 else:
-     print("Produto não encontrado")                         
+     print("Produto não encontrado")
+
+
+
+
+                         Décimo Primeiro Código   
+
+from math import log, ldexp , sqrt ,e
+
+x = float(input("Digite um valor:"))
+
+if x <= 1:
+    resultado = log(x)
+elif x > 1 or x <= 2:
+    resultado = log(x,10) + sqrt(x)
+elif x > 2 or x <= 5:
+    resultado = ldexp(x**2) +(e**x)
+elif x > 5:
+    resultado = ldexp(x**x/2) + log(x,2)
+
+print(resultado)                                               
