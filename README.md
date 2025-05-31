@@ -216,4 +216,19 @@ elif x > 2 or x <= 5:
 elif x > 5:
     resultado = ldexp(x**x/2) + log(x,2)
 
-print(resultado)                                               
+print(resultado)      
+
+
+
+
+                        Décimo Segundo Código
+
+def mensagem():
+    print("Minha função feita em Python.")
+    print("Esse é um exemplo de função sem parâmetro e sem retorno.")
+   
+     for _ in range (n):
+   
+def mensagemRepetida(n):
+   
+    mensagemRepetida(n)                        
