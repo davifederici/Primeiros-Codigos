@@ -226,12 +226,10 @@ print(resultado)
 def mensagem():
     print("Minha função feita em Python.")
     print("Esse é um exemplo de função sem parâmetro e sem retorno.")
-   
-     for _ in range (n):
-   
-def mensagemRepetida(n):
-   
-    mensagemRepetida(n)     
+
+    def mensagemRepetida(n):
+        for _ in range (n):
+            mensagem()
 
 
 
@@ -251,4 +249,10 @@ def main():
     segundos_restantes = segundos % 60
     print(f"{horas} horas, {minutos} minutos e {segundos_restantes} segundos")
 if __name__ == "__main__":
-    main()                   
+    main()
+
+
+
+
+                        DÉCIMO QUARTO CÓDIGO
+
