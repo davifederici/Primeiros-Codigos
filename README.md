@@ -256,3 +256,22 @@ if __name__ == "__main__":
 
                         DÉCIMO QUARTO CÓDIGO
 
+from math import factorial
+
+def combinacao(C, n, p):
+    if p > n:
+        return 0
+    return factorial(n) // (factorial(p) * factorial(n - p)) == C
+
+def main():
+    n = int(input("Digite o valor de n: "))
+    p = int(input("Digite o valor de p: "))
+    
+    if n < 0 or p < 0:
+        print("Valores negativos não são permitidos.")
+    else:
+        resultado = combinacao(n, p)
+        print(f"O valor de C({n}, {p}) é: {resultado}")
+
+main()
+
