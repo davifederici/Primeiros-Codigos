@@ -231,4 +231,24 @@ def mensagem():
    
 def mensagemRepetida(n):
    
-    mensagemRepetida(n)                        
+    mensagemRepetida(n)     
+
+
+
+
+                        Décimo Terceiro Código
+
+def converter(segundos):
+    horas = segundos // 3600
+    minutos = (segundos % 3600) // 60
+    segundos_restantes = segundos % 60
+    
+def main():
+    segundos = int(input("Digite o número de segundos: "))
+    converter(segundos)
+    horas = segundos // 3600
+    minutos = (segundos % 3600) // 60
+    segundos_restantes = segundos % 60
+    print(f"{horas} horas, {minutos} minutos e {segundos_restantes} segundos")
+if __name__ == "__main__":
+    main()                   
