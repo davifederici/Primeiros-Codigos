@@ -280,4 +280,45 @@ main()
 
                         DÉCIMO QUINTO CÓDIGO
 
-                        
+def soma1():
+    x = float(input("Digite um número: "))
+    y = float(input("Digite outro: "))
+    return x+y
+
+def soma2(x, y):
+    return x+y
+
+def main():
+    resultado1 = soma1()
+    print(f"Resultado da soma:{resultado1}")
+
+    a = float(input("Digite um número: "))
+    b = float(input("Digite outro: "))
+   
+    resultado2 = soma2(a,b)
+    print(f"Resultado da soma: {resultado2}")
+
+main()
+
+
+
+
+                        DÉCIMO SEXTO CÓDIGO
+
+def soma3(x, y):
+    print("Chegou aqui!")
+    return x + y
+
+def main():    
+    x = float(input("Digite um valor:"))
+    y = float(input("Digite outro valor:"))
+    
+    resultado3 = soma3(x,y)
+    print(f"resultado: {resultado3}")
+
+main()
+
+
+
+
+                    
