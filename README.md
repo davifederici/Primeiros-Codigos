@@ -321,4 +321,16 @@ main()
 
 
 
-                    
+                        DÉCIMO SETIMO CÓDIGO
+
+def divisivel(x, y):
+  return "Par" if x%y == 0 else y==1
+
+def main():
+    
+    x = float(input("Digite um valor:"))
+    y= float (input("Digite outro valor"))
+    resultado1 = divisivel(x,y)
+    print(f"Resultado: {resultado1}")
+
+main()
