@@ -355,4 +355,13 @@ main()
 
 
 
-                        DÉC
+                        DÉCIMO NONO CÓDIGO
+
+def imprime(M, x = 1):
+    if x > M:
+             return
+    print(x)
+    imprime(M, x + 1)
+       
+
+imprime(5)
