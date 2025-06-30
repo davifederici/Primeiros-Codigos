@@ -334,3 +334,25 @@ def main():
     print(f"Resultado: {resultado1}")
 
 main()
+
+
+
+
+                        DÉCIMO OITAVO CÓDIGO
+
+def fatorial(n):
+    return 1 if n == 0 or n == 1 else n*fatorial(n-1)
+
+def main():
+    n = 2
+    print(f"{n}! = {fatorial(n)}")
+
+    #n = -2
+    #print(f"{n}! = {fatorial(n)}")
+
+main()
+
+
+
+
+                        DÉC
