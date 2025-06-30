@@ -365,3 +365,17 @@ def imprime(M, x = 1):
        
 
 imprime(5)
+
+
+
+
+                        VIGÉSIMO CÓDIGO
+
+def imprime( n , m ):
+    if n > m:
+             return
+    print(n)
+    imprime( n + 1 , m )
+       
+
+imprime( 5 , 10 )
