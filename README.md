@@ -379,3 +379,55 @@ def imprime( n , m ):
        
 
 imprime( 5 , 10 )
+
+
+
+
+
+                        VIGÉSIMO PRIMEIRO CÓDIGO
+
+def f1(n, m):
+    if n <= m:
+        print(n)
+        f1(n + 1, m)
+
+def f2(n, m):
+    if n > m:
+        return
+    else:
+        print(n)
+        f2(n + 1, m)
+
+def f3(n, m):
+    print(n)
+    if n == m:
+        return None
+    f3(n + 1, m)
+
+def f4(n, m):
+    print(n)
+    if n != m:
+        f4(n + 1, m)
+
+def f5(n, m):
+    if n <= m:
+        f5(n + 1, m)
+        print(n)
+
+def main():
+    print("f1(0, 10)")
+    f1(0, 10)
+
+    print("f2(0, 10)")
+    f2(0, 10)
+
+    print("f3(0, 10)")
+    f3(0, 10)
+
+    print("f4(0, 10)")
+    f4(0, 10)
+
+    print("f5(0, 10)")
+    f5(0, 10)
+
+main()
