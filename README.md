@@ -431,3 +431,34 @@ def main():
     f5(0, 10)
 
 main()
+
+
+
+
+                        VIGÉSIMO SEGUNDO CÓDIGO
+
+def f1(n):
+    if n % 2 == 0:
+        return 
+        1 + f1(n - 2)
+        print(n)
+    else:
+        return f1(n - 1) #Por que n - 1?
+        print(n)
+        f1(n - 1)
+        
+def f2(n):
+    if n >= 1:
+        return 
+    else:
+        print(n)
+        n + f2(n + 1)
+
+def main():
+    print("f1(10)")
+    f1(10)
+    
+    print("f2(5)")
+    f2(5)
+    
+main()
