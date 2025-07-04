@@ -468,3 +468,14 @@ main()
 
                         VIGÉSIMO TERCEIRO CÓDIGO
 
+def bx(n):
+    if n == 0:
+        return 0 
+    else :
+        return n%2 +10*bx(n//2)
+def main():
+    print(bx(3))
+    print(bx(10))
+    print(bx(4))
+    print(bx(10000000000000000000000000))
+main()
