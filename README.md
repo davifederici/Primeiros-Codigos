@@ -536,3 +536,50 @@ main()
 
 
 
+                        VIGÉSIMO SEXTO CÓDIGO
+
+def M(a, b):
+    if not isinstance(b, int) or b < 0:
+        print("ERRO")
+        return
+    elif b == 0:
+        return 0
+    elif b == 1:
+        return a
+    else:
+        return a + M(a, b - 1)
+
+def DI(a, b):
+    if not isinstance(a, int) or not isinstance(b, int) or a < 0 or b <= 0:
+        print("ERRO")
+        return
+    elif a < b:
+        return 0
+    else:
+        return 1 + DI(a - b, b)
+
+def RD(a, b):
+    if not isinstance(a, float) or not isinstance(b, float) or b <= 0:
+        print("ERRO")
+        return
+    elif a < b:
+        return a
+    else:
+        return RD(a - b, b)
+
+def main():
+    print(M(2, 3))
+    print(M(3, 2))
+
+    print(M(4, 2))
+
+    print(DI(2, 3))
+    print(DI(3, 2))
+    print(DI(4, 2))
+    print(DI(10, 6))
+
+    print(RD(2.0, 3.0))
+    print(RD(3.0, 2.0))
+    print(RD(25.5, 10.5))
+
+main()
