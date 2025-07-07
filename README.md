@@ -583,3 +583,43 @@ def main():
     print(RD(25.5, 10.5))
 
 main()
+
+
+
+
+                        VIGÉSIMO SÉTIMO CÓDIGO
+
+def f1(n):
+    
+    if not isinstance(n, int) or n < 1:
+        print("ERRO: n deve ser inteiro positivo")
+        return None
+    if n == 1:
+        return 1
+    return n + f1(n - 1)
+
+def imprimeSoma_recursivo(k, m):
+   
+    if k >= m:
+        return
+    soma = f1(k)
+    print(f"Soma de 1 até {k} = {soma}")
+    imprimeSoma_recursivo(k + 1, m)
+
+def imprimeSoma(m):
+
+    if not isinstance(m, int) or m < 1:
+        print("ERRO: m deve ser inteiro positivo")
+        return
+    imprimeSoma_recursivo(1, m)
+
+def main():
+
+    print("Testes da função f1:")
+    print(f"f1(5) = {f1(5)}")
+
+main()
+
+
+
+
