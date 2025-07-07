@@ -479,3 +479,33 @@ def main():
     print(bx(4))
     print(bx(10000000000000000000000000))
 main()
+
+
+
+
+                        VIGÉSIMO QUARTO CÓDIGO
+
+def eh_primo(n, i=2):
+    if n <= 1:
+        return False
+    if i * i > n:
+        return True
+    if n % i == 0:
+        return False
+    return eh_primo(n, i + 1)
+
+def verificar_lista(lista, idx=0):
+    if idx == len(lista):
+        return 
+    numero = lista[idx]
+    if eh_primo(numero):
+        print(f"{numero} é primo.")
+    else:
+        print(f"{numero} não é primo.")
+    verificar_lista(lista, idx + 1)  
+
+def main():
+    numeros = [2, 3, 8]
+    verificar_lista(numeros)
+
+main()
