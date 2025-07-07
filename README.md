@@ -509,3 +509,30 @@ def main():
     verificar_lista(numeros)
 
 main()
+
+
+
+
+                        VIGÉSIMO QUINTO CÓDIGO
+
+def b(n):
+    if not isinstance(n, int) or n < 0:
+        print("ERRO: O argumento deve ser inteiro positivo")
+        return None
+    if n == 0:
+        return "0"
+    if n == 1:
+        return "1"
+    return b(n // 2) + str(n % 2)
+
+def main():
+    numero = int(input("Digite um número natural: "))
+    binario = b(numero)
+    if binario is not None:
+        print(f"Representação binária: {binario}")
+
+main()
+
+
+
+
