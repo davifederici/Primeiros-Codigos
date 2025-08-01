@@ -796,3 +796,17 @@ def myRange2(b, a=1):
 b = int(input("numero b : "))
 L = myRange2(b)
 print(L)
+
+
+
+
+                        TRIGÉSIMO SEGUNDO
+
+def myRange3(n, L=[], i=2, s=2):
+    if i > n:
+        return L 
+    else:
+        return myRange3(n, L + [i], i+2)   
+
+L = myRange3(s = [2],n = 10,i = 2)
+print(L) 
