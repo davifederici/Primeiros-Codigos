@@ -810,3 +810,9 @@ def myRange3(n, L=[], i=2, s=2):
 
 L = myRange3(s = [2],n = 10,i = 2)
 print(L) 
+
+
+
+
+                        TRIGÉSIMO TERCEIRO
+
