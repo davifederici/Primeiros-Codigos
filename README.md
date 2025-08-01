@@ -780,3 +780,19 @@ def myRange1(n, L=[], i=0):
 
 L = myRange1(10)
 print(L)
+
+
+
+
+                        TRIGÉSIMO PRIMEIRO
+
+def myRange2(b, a=1):
+    if a > b:
+        return []
+    else:
+        return [a] + myRange2(b , a + 1)
+    return L
+
+b = int(input("numero b : "))
+L = myRange2(b)
+print(L)
