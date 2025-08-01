@@ -766,3 +766,17 @@ def main():
     caixaEletronico()
 
 main()
+
+
+
+
+                        TRIGÉSIMO
+
+def myRange1(n, L=[], i=0):
+    if i == n:
+        return L + [i]
+    else:
+        return myRange1(n, L + [i], i+1)   
+
+L = myRange1(10)
+print(L)
