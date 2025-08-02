@@ -816,3 +816,12 @@ print(L)
 
                         TRIGÉSIMO TERCEIRO
 
+def imprime(L=[], i = 0 ):
+    if i < len(L):
+        print(L[i])
+    imprime(L, i + 2)
+
+
+
+
+    
