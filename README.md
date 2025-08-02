@@ -834,3 +834,18 @@ def imprime(L=[], i=1):
         return [i == 2] 
         print(False)    
         imprime(L, i + 1)
+
+
+
+
+                        TRIGÉSIMO QUINTO
+
+def soma(L, i=0):
+    if i < len(L):
+        return L[i] + soma(L, i + 1)
+    return 0
+
+
+
+
+    
