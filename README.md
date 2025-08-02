@@ -824,4 +824,13 @@ def imprime(L=[], i = 0 ):
 
 
 
-    
+                        TRIGÉSIMO QUARTO
+
+def imprime(L=[], i=1):
+    if i < len(L):
+        return imprime(L, i + 1)
+        print(L[i])
+    else:
+        return [i == 2] 
+        print(False)    
+        imprime(L, i + 1)
