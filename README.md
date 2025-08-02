@@ -848,4 +848,12 @@ def soma(L, i=0):
 
 
 
+                        TRIGÉSIMO SEXTO
+
+def soma(lista, i=0):
+    if not all(isinstance(x, str) for x in lista):
+        raise TypeError("Todos os elementos da lista devem ser strings.")
     
+    if i == len(lista) - 1:
+        return lista[i]
+    return lista[i] + soma(lista, i + 1)
