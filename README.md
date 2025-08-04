@@ -877,3 +877,9 @@ def todosNumeros(n,L=[], i=0):
 
                         TRIGÉSIMO OITAVO
 
+def pertence(lista, x):
+    if not lista:
+        return False
+    if lista[0] == x:
+        return True
+    return pertence(lista[1:], x)
