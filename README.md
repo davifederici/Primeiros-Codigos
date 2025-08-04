@@ -871,3 +871,9 @@ def todosNumeros(n,L=[], i=0):
     else:
         return False 
         print("False")
+
+
+
+
+                        TRIGÉSIMO OITAVO
+
