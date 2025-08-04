@@ -857,3 +857,17 @@ def soma(lista, i=0):
     if i == len(lista) - 1:
         return lista[i]
     return lista[i] + soma(lista, i + 1)
+
+
+
+
+                        TRIGÉSIMO SÉTIMO
+
+def todosNumeros(n,L=[], i=0):
+    if i == n:
+        n = float(input("Digite um número: "))
+        return True
+        print("True")
+    else:
+        return False 
+        print("False")
